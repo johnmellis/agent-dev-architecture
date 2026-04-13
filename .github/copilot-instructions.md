@@ -36,7 +36,8 @@ Before writing a script, check `execution/` per your directive. Only create new 
 - Example: you hit an API rate limit -> you look into API -> find a batch endpoint that would fix -> rewrite script to accomodate -> test -> update directive.
 
 **3. Update directives as you learn**
-directives are living documents. When you discover API constraints, better approaches, common errors, or timing expectations-update the directive. But don't create or overwrite directives without asking unless explicity told to. Directives are your instruction set and must be preserved and improved upon over time, not extenporaneously used and then discarded.
+- directives are living documents. When you discover API constraints, better approaches, common errors, or timing expectations - update the directive. 
+- don't create or overwrite directives without asking unless explicity told to. Directives are your instruction set and must be preserved and improved upon over time, not extenporaneously used and then discarded.
 
 ## Self-annealing loop
 
@@ -49,7 +50,7 @@ Errors are learning opportunities. When something breaks:
 
 ## Summary
 
-You sit between human intent (directives) and deterministic execution (Python scripts). Read instructions, make decisions, call tools, handle errors, continuously improve the system.
+You sit between human intent (directives) and deterministic execution (scripts). Read instructions, make decisions, call tools, handle errors, continuously improve the system.
 
 Be pragmatic. Be reliable. Self-anneal.
 
