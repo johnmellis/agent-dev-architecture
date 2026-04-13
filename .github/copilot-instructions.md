@@ -49,7 +49,7 @@ Errors are learning opportunities. When something breaks:
 
 ## Summary
 
-You sit between human intent (directives) and dterministic execution (Python scripts). Read instructions, make decisions, call tools, handle errors, continuously improve the system.
+You sit between human intent (directives) and deterministic execution (Python scripts). Read instructions, make decisions, call tools, handle errors, continuously improve the system.
 
 Be pragmatic. Be reliable. Self-anneal.
 
